@@ -1,0 +1,453 @@
+@font-face {
+    font-family:fuente1 ;
+    src: url(/fonts/PlaypenSans-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family:fuente2 ;
+    src: url(/fonts/Catamaran-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family:fuente3 ;
+    src: url(/fonts/Alkatra-VariableFont_wght.ttf);
+}
+@media screen  and (min-width:490px) and (max-width: 2000px) {
+    
+
+body{background-image: url(../img/circuit-7447920_1920.png);}
+header{background-color: black;
+/* position: fixed;
+top: 0;} */}
+#contenedor1{display: flex;
+justify-content: space-around;}
+#logo1{height: 100px;
+margin-right: 20px;}
+.a1{text-decoration: none;
+color: aliceblue;
+margin-right: 30px;
+font-size: 20px;}
+#s1{color: aliceblue;
+font-size: 40px;
+margin: 0px 100px;
+font-family: fantasy;}
+#navbarSupportedContent{margin-left:300px;}
+#contenedor2{ position: relative;
+display: inline-block;
+text-align: center;}
+#img1{
+height: 600px;
+width: 1400px;
+margin: 50px 200px;}
+#caja1{ position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+width: 40%;}
+.text1{color: aliceblue;
+font-size: 50px;}
+#button1{height: 60px ;
+width: 200px;
+margin-top: 20px;
+border: none;
+color: rgb(0, 0, 0);
+font-size: 20px;
+font-weight: bold;
+border-radius: 10px;}
+#contenedor3{text-align: center;
+margin: 20px 200px;}
+#h2{font-size:70px;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: aliceblue;}
+#p1{font-size: 20px;
+font-family:fuente2;
+color: aliceblue;}
+#article{background-color: rgb(0, 119, 255);
+height: 550px;
+width: 90%;
+margin-left: auto;
+margin-right: auto;}
+#h3{font-size:50px;
+color: rgb(158, 252, 255);
+background-color: black;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-align: center;
+margin-top: 30px;}
+#contenedor4{
+width:100%;
+display: flex;
+flex-wrap: wrap;
+margin-right: auto;
+margin-left: auto;
+margin-top: 30px; }
+.card{
+width: 18rem;
+display: flex;
+flex-wrap: nowrap;
+margin-left: auto;
+margin-right: auto;
+margin-top: 20px;
+text-align: center;
+border: 2px solid  rgb(158, 252, 255);}
+#contenedor7{display: flex;
+justify-content: space-around;}
+#caja2{
+margin: 40px 50px;
+display: flex;
+color: aliceblue;}
+#caja3{
+text-align: center;
+width: 40%;
+margin-top: 50px;
+background-color: rgb(0, 236, 158);
+padding: 10px;}
+#caja4{
+text-align: center;
+width: 40%;
+color: aliceblue;
+margin-top: 50px;}
+#caja5{
+color: aliceblue;
+margin: 40px 50px;}
+.article1{
+border: 2px solid black;
+border-radius: 10px;
+padding: 30px ;
+text-align: center;
+width: 40%;
+background-color: rgb(0, 0, 0);
+border: 3px solid rgb(0, 236, 158);}
+.article2{
+border: 2px solid black;
+border-radius: 10px;
+padding: 30px ;
+text-align: center;
+width: 40%;
+border: 3px solid rgb(0, 2, 128);
+background-color: rgb(0, 0, 0);}
+#contenedor8{display: flex;
+margin-top: 20px;
+justify-content: space-around;}
+.p2{font-family: fuente2;
+padding: 5px;
+color: aliceblue;}
+#carouselExampleFade{
+padding: 20px;
+width: 80%;
+margin: 10px auto;}
+#h4{font-family: fuente1;
+margin-left: 700px;
+font-size: 50px;
+margin-top: 20px;
+background-color: black;
+color: rgb(2, 6, 241);}
+#button2{font-size: 30px;}
+#contenedor9{width: 80%;
+margin: 0px auto;
+border: 3px solid  rgb(133, 247, 255);}
+
+.accordion-body{
+font-size: 25px;
+} 
+#h5{text-align: center;
+font-size:60px;
+font-family: fuente1;
+padding: 10px;
+background-color: black;
+color: rgb(133, 247, 255);}
+#h6{text-align: center;
+font-size:60px;
+font-family: fuente1;
+padding: 10px;
+background-color: black;
+color: rgb(77, 145, 248);}
+.img3{margin-left: 500px;
+padding: 10px;}
+#h0{color: rgb(255, 255, 255);}
+#contenedor10{display: flex;}
+#caja6{margin: 10px 100px;
+text-align: center;
+background-color: black;
+border: 2px solid rgb(77, 145, 248);;}
+#caja7{
+margin-right: 150px;
+display: flex;}
+.img4{width: 100px;
+height: 100px;}
+#div1{text-align: center;
+width: 300px;}
+.div2{margin: 0px 30px;}
+#p4{color: aliceblue;
+font-size: 20px;
+font-family: fuente2;}
+#h7{color: aliceblue;
+font-family:fuente1;
+background-color: black;
+text-align: center;}
+#h8{color: aliceblue;
+font-family:fuente2;
+background-color: black;
+font-size: 50px;}
+#h9{text-align: center;
+font-size:60px;
+font-family: fuente1;
+padding-top: 30px;
+background-color: black;
+color: rgb(77, 242, 248);}
+#form{width: 60%;
+margin: 10px auto;
+background-color: black;
+padding: 20px;}
+#label{color: aliceblue;}
+#inputPassword{margin-top: 3px;}
+#button3{margin-left: 500px;}
+#logo2{height: 200px;}
+footer{background-color:black;
+display: flex;
+justify-content: space-around;}
+#h10{color: aliceblue;
+margin-top: 100px;}
+#p5{color: aliceblue;
+margin-top: 50px;
+font-size: 20px;}}
+
+
+
+
+@media screen  and (min-width:280px) and (max-width: 489px) {
+    body{background-image: url(../img/circuit-7447920_1920.png);
+    width: 500px;}
+    header{background-color: black;
+    width: 650px;
+    height: auto}
+    #contenedor1{display: flex;
+    justify-content: space-around;}
+    #logo1{height: 200px;
+    margin-right: 20px;}
+    .a1{text-decoration: none;
+    color: aliceblue;
+    padding-left: 10px;;
+    font-size: 30px;
+    text-align: center;}
+    #s1{color: aliceblue;
+    font-size: 50px;
+    margin: 0px 100px;
+    font-family: fantasy;
+    text-align: center;}
+    #navbarSupportedContent{margin-left:00px;
+    height: 150px;}
+    #contenedor2{ position: relative;
+    display: inline-block;
+    text-align: center;
+    }
+    #img1{
+    height: 500px;
+    width: 650px;
+    margin: 50px 0px;
+    margin-top: 200px;}
+    #caja1{ position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: 50px;
+    transform: translate(-50%, -50%);}
+    .text1{color: aliceblue;
+    font-size: 30px;}
+    #button1{height: 60px ;
+    width: 200px;
+    margin-top: 20px;
+    border: none;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 10px;}
+    #contenedor3{text-align: center;
+    margin: 20px 0px;}
+    #h2{font-size:70px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aliceblue;}
+    #p1{font-size: 20px;
+    font-family:fuente2;
+    color: aliceblue;}
+    #article{background-color: rgb(0, 119, 255);
+    height: 880px;
+    width:600px;
+    margin-left: 5px;
+    margin-right: auto;}
+    #h3{font-size:60px;
+    color: rgb(158, 252, 255);
+    background-color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 30px;
+    margin-left:150px;}
+    #contenedor4{
+    margin-left:50px;
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px; }
+    .card{
+    width: 600px;
+    margin-left: 0px ;
+    margin-top: 20px;
+    text-align: center;
+    border: 2px solid  rgb(158, 252, 255);}
+    .card-body{width: 500px;}
+    .card-title{font-size: 60px;}
+    .card-text{font-size: 30px;}
+    .card-img-top{background-size: contain;
+    width: 500px;}
+    #buttondecard{font-size: 35px;}
+    #caja2{
+    display: flex;
+    color: aliceblue;}
+    #caja3{
+    margin-left: 5px;
+    text-align: center;
+    width: 600px;
+    margin-top: 50px;
+    background-color: rgb(0, 236, 158);
+    padding: 10px;}
+    #titulo{font-size: 50px;}
+    #parrafo{font-size: 30px;}
+    #caja4{
+    text-align: center;
+    width: 40%;
+    color: aliceblue;
+    margin-top: 50px;}
+    #caja5{
+    color: aliceblue;
+    margin: 40px 50px;}
+    .article1{
+    margin-left: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 30px ;
+    text-align: center;
+    width: 600px;
+    background-color: rgb(0, 0, 0);
+    border: 3px solid rgb(0, 236, 158);}
+    .article2{
+    margin-left: px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 30px ;
+    text-align: center;
+    width: 600px;
+    border: 3px solid rgb(0, 2, 128);
+    background-color: rgb(0, 0, 0);}
+    .object-fit-contain{display: flex;
+    justify-content: center;
+    margin-left: 100px;}
+    .embed-responsive-item{
+    margin-top: 100px;
+    height: 500px;
+    width: 600px;
+    }
+    #contenedor8{
+    margin-top: 20px;
+
+    }
+    .p2{font-family: fuente2;
+    padding: 5px;
+    color: aliceblue;
+    font-size: 40px;}
+    #carouselExampleFade{
+    padding: 20px;
+    width: 650px;
+    margin: 10px 0px;
+    }
+    #h4{font-family: fuente1;
+    margin-left:70px;
+    font-size: 60px;
+    margin-top: 20px;
+    background-color: black;
+    color: rgb(238, 238, 238);}
+    #button2{font-size: 60px;}
+    #contenedor10{margin-right: 20px;}
+    #contenedor9{width: 650px;
+    margin-left: 20px;
+    margin: 0px auto;
+    border: 3px solid  rgb(133, 247, 255);}
+    #titulodeacordeon{font-size: 40px;}
+    .accordion-body{
+    font-size: 40px;} 
+    #h5{text-align: center;
+    margin-left: 50px;
+    font-size:60px;
+    font-family: fuente1;
+    padding: 10px;
+    color: rgb(133, 247, 255);
+    background-color: black;}
+    #h6{text-align: center;
+    font-size:60px;
+    margin-left: 60px;
+    font-family: fuente1;
+    padding: 10px;
+    color: rgb(77, 145, 248);
+    background-color: black;}
+    .img3{margin-left: 150px;
+    padding: 10px;}
+    #h0{color: rgb(255, 255, 255);}
+    #caja6{margin: 10px 0px;
+    width: 600px;
+    margin-left: 10px;
+    text-align: center;
+    background-color: black;
+    border: 2px solid rgb(77, 145, 248);;}
+    .img4{width: 200px;
+    height: 100px;}
+    .img5{width: 450px;
+    height: 600px;}
+    .p3{font-size: 30px;}
+    #caja7{margin-top: 100px;
+    margin-left: 50px;}
+    #div1{text-align: center;
+    margin-bottom: 20px;
+    width: 400px;
+    margin-left: 25px;}
+    .div2{margin-right: 50px;
+    margin-bottom: 200px;}
+    #p4{color: aliceblue;
+    font-size: 30px;
+    font-family: fuente2;}
+    #h7{color: aliceblue;
+    font-family:fuente1;
+    background-color: black;
+    text-align: center;
+    font-size: 40px;}
+    #h8{color: aliceblue;
+    margin-left: 20px;
+    font-family:fuente2;
+    font-size: 40px;
+    background-color: black;
+    font-size: 50px;}
+    #h9{text-align: center;
+    font-size:70px;
+    margin-left: 30px;
+    font-family: fuente1;
+    padding-top: 30px;
+    background-color: black;
+    color: rgb(77, 242, 248);}
+    #form{width: 550px;
+    margin: 10px auto;
+    background-color: black;
+    padding: 20px;
+    margin-left: 30px;}
+    #label{color: aliceblue;
+    font-size: 30px;}
+    #inputPassword{margin-top: 3px;}
+    #button3{margin-left: 150px;
+    font-size: 40px;}
+    #logo2{height: 200px;}
+    footer{background-color:black;
+    display: flex;
+    justify-content: space-around;
+    width: 650px;}
+    #h10{color: aliceblue;
+    margin-top: 100px;
+    font-size: 30px;}
+    #p5{color: aliceblue;
+    margin-top: 50px;
+    font-size: 0px;}}
+    
+
+
+
